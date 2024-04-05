@@ -1,4 +1,7 @@
 let inputValue = 10;
 let milesToKm = true;
-if(milesToKm == true){}
-else {}
+result = 0;
+if(milesToKm === true){result = inputValue * 1.60934}
+else {result = inputValue / 1.60934}
+const resultString = inputValue + " miles are " + result + " km";
+console.log(resultString)
