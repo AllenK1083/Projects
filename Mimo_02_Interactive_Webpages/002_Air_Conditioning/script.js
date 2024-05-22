@@ -1,0 +1,1 @@
+const isWeekday = true;
