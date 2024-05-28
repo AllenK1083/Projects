@@ -14,9 +14,21 @@ console.log(alexPointsDisplay);
 let jessiePointsDisplay = "Jessie earned " + jessiePoints + "points out of " + maxPoints;
 console.log(jessiePointsDisplay);
 
+let samMissedPoints = maxPoints - samPoints;
+let alexMissedPoints = maxPoints - alexPoints;
+let jessieMissedPoints = maxPoints - jessiePoints;
+
 let samPercentage = (samPoints/maxPoints)*100;
 let samPercentDisplay = "Sam scored " + samPercentage +"%";
 console.log(samPercentDisplay);
+
+let alexPercentage = (alexPoints/maxPoints)*100;
+let alexPercentDisplay = "Alex scored " + alexPercentage +"%";
+console.log(alexPercentDisplay);
+
+let jessiePercentage = (jessiePoints/maxPoints)*100;
+let jessiePercentDisplay = "Jessie scored " + jessiePercentage +"%";
+console.log(jessiePercentDisplay);
 
 const listItemArray = document.querySelectorAll("li");
 listItemArray[0].innerHTML = "Raw Points:";
