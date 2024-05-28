@@ -4,6 +4,8 @@ let samPoints = 84;
 let alexPoints = 45;
 let jessiePoints = 99;
 let didAlexPass = false;
+let samPointsDisplay = "Sam earned " + samPoints + " points out of " + maxPoints;
+console.log(samPointsDisplay)
 
 const listItemArray = document.querySelectorAll("li");
 listItemArray[0].innerHTML = "Raw Points:";
