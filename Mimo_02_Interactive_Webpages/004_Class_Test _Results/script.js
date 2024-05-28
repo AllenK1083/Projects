@@ -30,6 +30,18 @@ let jessiePercentage = (jessiePoints/maxPoints)*100;
 let jessiePercentDisplay = "Jessie scored " + jessiePercentage +"%";
 console.log(jessiePercentDisplay);
 
+let samMissedPointsDisplay = "Sam missed " + samMissedPoints + " point(s).";
+console.log(samMissedPointsDisplay);
+
+let alexMissedPointsDisplay = "Alex missed " + alexMissedPoints + " point(s).";
+console.log(alexMissedPointsDisplay);
+
+let jessieMissedPointsDisplay = "Jessie missed " + jessieMissedPoints + " point(s).";
+console.log(jessieMissedPointsDisplay);
+
+let classAveragePoints = (samPoints + alexPoints + jessiePoints)/3;
+let classAveragePercent = classAveragePoints/maxPoints*100;
+
 const listItemArray = document.querySelectorAll("li");
 listItemArray[0].innerHTML = "Raw Points:";
 listItemArray[4].innerHTML = "Percentages:";
