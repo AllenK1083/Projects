@@ -1,9 +1,9 @@
 let maxPoints = 120;
 let passingPoints = 70;
 let samPoints = 84;
-let alexPoints = 45;
+let alexPoints = 75;
 let jessiePoints = 99;
-let didAlexPass = false;
+let didAlexPass = true;
 
 let samPointsDisplay = "Sam earned " + samPoints + " points out of " + maxPoints;
 console.log(samPointsDisplay);
@@ -41,6 +41,12 @@ console.log(jessieMissedPointsDisplay);
 
 let classAveragePoints = (samPoints + alexPoints + jessiePoints)/3;
 let classAveragePercent = classAveragePoints/maxPoints*100;
+
+let classAvgDisplay = "The class average was " + classAveragePoints + " points or " + classAveragePercent.toFixed(2) +"%";
+console.log(classAvgDisplay);
+
+let alexPointsUpdated = "Alex failed initially but did extra credit. Their new score is " + alexPoints + " out of " + maxPoints;
+console.log(alexPointsUpdated);
 
 const listItemArray = document.querySelectorAll("li");
 listItemArray[0].innerHTML = "Raw Points:";
