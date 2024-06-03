@@ -10,3 +10,8 @@
     background-color: #E6E6FA;
     padding: 20px;
   }
+  
+  .menu-item{
+    display: block;
+    font-size: 18px;
+  }
