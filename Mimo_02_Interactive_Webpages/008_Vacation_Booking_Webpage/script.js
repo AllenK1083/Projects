@@ -8,6 +8,7 @@ const minReviewScore = 3.5;
 const maxCostPerNight = 150;
 const needPool = true;
 const inCountry = "Italy";
+let match = true;
 const listItemArray = document.querySelectorAll("li");
 listItemArray[0].innerHTML = "Beds: " + beds;
 listItemArray[1].innerHTML = "Review Score: " + reviewScore;
