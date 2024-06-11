@@ -1,5 +1,6 @@
 img {
     border-radius: 75px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
   
   h2 {
@@ -7,7 +8,7 @@ img {
   }
   
   body {
-    background-color: slateblue;
+    background: linear-gradient(to right, slateblue, lightblue);
     color: white;
     font-family: 'Trebuchet MS';
     text-align: center;
@@ -22,4 +23,26 @@ img {
     text-align: center;
     margin: 10px;
     color: slateblue;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  a:hover {
+    color: white;
+    background-color: slateblue;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100%{
+  
+  
+    }
+    40% {
+     
+   
+    }
+    60% {
+    
+    }
+    
   }
