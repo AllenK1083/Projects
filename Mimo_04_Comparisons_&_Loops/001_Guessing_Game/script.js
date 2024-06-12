@@ -10,6 +10,7 @@ function checkGuess() {
     if (guess == randomNumber) {
       feedbackElement.innerHTML = "Congratulations!";
       feedbackElement.style.color = "green";
+      attempts = 0
       break;
     } else if (guess < randomNumber) {
       feedbackElement.innerHTML = "Too low! Try again.";
@@ -20,5 +21,9 @@ function checkGuess() {
       feedbackElement.style.color = "red";
       break;
     }
+  }
+  if (attempts == 0 && guess !== randomNumber){
+    feedbackElement.innerHTML = "Game over";
+    feedbackElement.style.color = "red";
   }
 }
