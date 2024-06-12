@@ -1,0 +1,27 @@
+Javascript
+let variable = function(parameters) {
+    console.log("Hello World");
+};
+
+function variable(parameters) {
+    console.log("Hello World");
+}
+
+let variable = (parameters) => {
+    console.log("Hello World");
+};
+
+
+Python
+def say_hello():
+  """Prints 'Hello world!' to the console."""
+  print("Hello world!")
+
+say_hello() 
+
+Using a lambda function:
+
+Python - the words lambda must be used to indicate it is a lambda function.
+say_hello = lambda paramater: print("Hello world!" + parameter)
+
+say_hello()
