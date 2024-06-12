@@ -1,3 +1,5 @@
+Copy and paste this into gitbash to stage deleted files:
 git rm $(git ls-files --deleted)
 
+Copy and past this into gitbash to stage and commit deleted folders:
 git add -u && git commit -m "<stage deleted folders, and commit>"
