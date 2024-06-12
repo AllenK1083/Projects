@@ -2,19 +2,23 @@ let randomNumber = Math.floor(Math.random() * 100) + 1;
 let attempts = 10;
 
 function checkGuess() {
-  attempts = (attempts - 1);
-  let inputElement = document.getElementById("guess");
-  let feedbackElement = document.getElementById("feedback");
-  let guess = inputElement.value;
-  if (randomNumber == guess){
-    feedbackElement.innerHTML = "You guessed Correctly!";
-    feedbackElement.style.color = "green";
-  } else if (guess < randomNumber){
-    feedbackElement.innerHTML = "Too Low! Try again";
-    feedbackElement.style.color = "red";
-  } else {
-
-  };
+  attempts--;
+  const inputElement = document.getElementById("guess");
+  const feedbackElement = document.getElementById("feedback");
+  const guess = inputElement.value;
+  while (attempts > 0) {
+    if (guess == randomNumber) {
+      feedbackElement.innerHTML = "Congratulations!";
+      feedbackElement.style.color = "green";
+      break;
+    } else if (guess < randomNumber) {
+      feedbackElement.innerHTML = "Too low! Try again.";
+      feedbackElement.style.color = "red";
+      break;
+    } else {
+      feedbackElement.innerHTML = "Too high! Try again.";
+      feedbackElement.style.color = "red";
+      break;
+    }
+  }
 }
-
-
