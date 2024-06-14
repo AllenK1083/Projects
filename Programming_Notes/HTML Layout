@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <title><!-- Will Show Title --></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1><!-- Header --></h1>
+      <p></p>
+      <img src="" alt="<!-- image alt text -->">
+      <a href="<!-- link -->"><!-- link text --></a>
+      <input type=><!-- text, password, email, url, tel, search, number, date, datetime-local, month, week, time, color, checkbox, radio, file, hidden, image, submit, reset, button -->
+      <button onclick="checkGuess()">Submit Guess</button>
+      <break></break>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
