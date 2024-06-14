@@ -1,0 +1,17 @@
+Use these methods to print variables without the need of concatenation.
+
+let name = "Allen";
+let city = "New York City";
+let birthYear = 1983;
+
+console.log(`My name is ${name}, I live in ${city}, and I was born in ${birthYear}.`);
+My name is Allen, I live in New York City, and I was born in 1983.
+
+Python
+name = "Allen"
+city = "New York City"
+birth_year = 1983
+
+print(f"My name is {name}, I live in {city}, and I was born in {birth_year}.")
+My name is Allen, I live in New York City, and I was born in 1983.
+

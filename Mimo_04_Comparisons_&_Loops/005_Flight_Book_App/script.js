@@ -1,2 +1,25 @@
-const nameOnPass = "Allen";
+const nameOnPass = "Suzanne Parker";
 console.log("Passenger Name: " + nameOnPass);
+const nameOnId = "Suzanne Parker";
+const nameMatch = nameOnPass === nameOnId;
+console.log("ID confirmed? " + nameMatch);
+const length = 25;
+const doesLengthPass = length < 30;
+const height = 57;
+const doesHeightPass = height < 55;
+const isHandBaggageEligible = doesHeightPass && doesLengthPass;
+console.log("Is Hand Baggage Eligible? " + isHandBaggageEligible);
+const flightDes = "New York City";
+const returnFrom = "Los Angeles";
+const isRoundTrip = flightDes === returnFrom;
+console.log(`Round Trip Check? ${isRoundTrip}`);
+const bookings = 10;
+const totalCapacity = 12;
+const isFlightAvailable = bookings < totalCapacity;
+console.log(`Are seats available? ${isFlightAvailable}`);
+
+document.querySelector("#name").innerHTML = nameOnPass;
+document.querySelector("#id").innerHTML = nameMatch;
+document.querySelector("#bag").innerHTML = isHandBaggageEligible;
+document.querySelector("#des").innerHTML = isRoundTrip;
+document.querySelector("#seat").innerHTML = isFlightAvailable;

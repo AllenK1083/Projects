@@ -14,14 +14,14 @@ let variable = (parameters) => {
 
 Python
 def say_hello():
-  """Prints 'Hello world!' to the console."""
+  #Prints 'Hello world!' to the console.#
   print("Hello world!")
 
 say_hello() 
 
 Using a lambda function:
+#Python - the words lambda must be used to indicate it is a lambda function.#
 
-Python - the words lambda must be used to indicate it is a lambda function.
 say_hello = lambda paramater: print("Hello world!" + parameter)
 
 say_hello()
