@@ -5,14 +5,36 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
+    <nav>
+      <ul>
+        <li><a href="<!-- link -->"><!-- link text --></a></li>
+      </ul>
+    </nav>
+    <header>
       <h1><!-- Header --></h1>
+    </header>
+    <main>   
+      <div></div> 
       <p></p>
       <img src="" alt="<!-- image alt text -->">
       <a href="<!-- link -->"><!-- link text --></a>
       <input type=><!-- text, password, email, url, tel, search, number, date, datetime-local, month, week, time, color, checkbox, radio, file, hidden, image, submit, reset, button -->
       <button onclick="checkGuess()">Submit Guess</button>
+      <form>
+        <legend></legend>
+        <label for></label> <!-- for is like the id but only for label, it should match the id of the input -->
+        <input placeholder="<!-- placeholder text -->"> type=><!-- text, password, email, url, tel, search, number, date, datetime-local, month, week, time, color, checkbox, radio, file, hidden, image, submit, reset, button -->
+        <textarea></textarea> 
+        <input type=submit>
+        </form>
       <break></break>
+    </main>
+    <footer>
+      <p></p>
+    </footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-1"></div>
     </div>
     <script src="script.js"></script>
   </body>
