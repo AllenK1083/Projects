@@ -1,0 +1,18 @@
+Javascript
+for (let i = 0; i < 10; i++) {
+    console.log(i);
+}   
+
+while (i < 10) {
+    console.log(i);
+    i++;
+}   
+
+
+Python  
+for i in range(10):
+    print(i)        
+
+while i < 10:
+    print(i)
+    i += 1  
