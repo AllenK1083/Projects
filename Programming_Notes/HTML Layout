@@ -24,18 +24,14 @@
         <legend></legend>
         <label for></label> <!-- for is like the id but only for label, it should match the id of the input -->
         <input placeholder="<!-- placeholder text -->"> type=><!-- text, password, email, url, tel, search, number, date, datetime-local, month, week, time, color, checkbox, radio, file, hidden, image, submit, reset, button -->
-        <textarea></textarea> 
-        <input type=submit>
+        <textarea rows="<!-- rows -->" cols="<!-- cols -->"></textarea> 
+        <button>Submit</button>   
         </form>
       <break></break>
     </main>
     <footer>
       <p></p>
     </footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-1"></div>
-    </div>
     <script src="script.js"></script>
   </body>
 </html>
