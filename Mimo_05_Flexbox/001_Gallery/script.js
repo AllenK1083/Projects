@@ -1,3 +1,10 @@
+const modal = document.getElementById("modal");
+const modalContent = document.getElementById("modal-content");
 const showModal = (thumbnail) => {
-    console.log("clickd");
-  };
+  modal.style.display = "block";
+  modalContent.src = thumbnail.src;
+};
+
+const hideModal = () => {
+  modal.style.display = "none";
+};
