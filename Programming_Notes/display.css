@@ -1,5 +1,5 @@
 body{
-    display: ;
+    display: block;
     
 }
 
@@ -46,3 +46,15 @@ right: Sets the right position of an element.
 bottom: Sets the bottom position of an element.
 left: Sets the left position of an element.
 z-index: Sets the stacking order of an element relative to other elements.
+
+justify-content: Controls the horizontal alignment of flex items in a flex container.
+align-items: Controls the vertical alignment of flex items in a flex container.
+align-content: Controls the alignment of flex items in a flex container along the cross axis.
+
+flex-direction: Controls the direction of the flex container's main axis.
+flex-wrap: Controls whether flex items wrap or not. 
+
+justify-text: Controls the horizontal alignment of text in a flex container.
+align-text: Controls the vertical alignment of text in a flex container.    
+
+justify-items: Controls the horizontal alignment of flex items in a flex container along the main axis.
