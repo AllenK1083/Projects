@@ -41,3 +41,8 @@ body {
    .otherPromo {
     height: 600px;
    }
+   
+   .container {
+       padding: 0px;
+       margin: 0px;
+      }

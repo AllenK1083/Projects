@@ -1,0 +1,48 @@
+body{
+    display: ;
+    
+}
+
+/* block: This is the default value for most HTML elements like <div>, <p>, <h1> to <h6>, and <ul>. It generates a block-level box that starts on a new line and spans the entire available width.
+Inline Elements:
+inline: This value makes the element act like inline content. It occupies only the space needed for its content and sits on the same line as other inline elements. Examples of inline elements include <span>, <strong>, and <a>.
+
+Other Display Values:
+inline-block: This value combines aspects of both block and inline elements. It allows elements to sit on the same line but also define a width and height like a block-level element. This is useful for elements you want to float or position next to each other while maintaining inline flow.
+none: This value removes the element from the document flow altogether, essentially hiding it from the page layout.
+Advanced Display Values:
+
+flex: This value activates the CSS Flexible Box Layout Model, allowing for more control over the layout and arrangement of child elements within a container element.
+grid: This value activates the CSS Grid Layout Model, enabling a two-dimensional grid-based layout system for arranging elements.
+table: This value makes the element behave like a table element, allowing you to define rows and columns for data organization.
+inline-table: Similar to inline-block, this value combines aspects of inline and table elements.
+
+Box Model Properties:
+width: Defines the width of the element.
+height: Defines the height of the element.
+margin: Controls the spacing around the element's border.
+padding: Controls the spacing between the element's content and border.
+
+border: Shorthand for defining all four borders (top, right, bottom, left).
+border-top, border-right, border-bottom, border-left: Individual border properties.
+border-style: Defines the style of the border (solid, dashed, dotted, etc.).
+border-width: Defines the width of the border.
+border-color: Defines the color of the border.
+
+Background Properties:
+background-color: Sets the background color of the element.
+background-image: Sets an image as the background of the element.
+background-repeat: Controls how the background image repeats.
+background-position: Positions the background image within the element.
+
+position: Sets the position of an element within its parent container
+absolute: Positions an element relative to its nearest positioned ancestor.
+relative: Positions an element relative to its normal position.
+fixed: Positions an element relative to the viewport, not the normal flow of the document.
+sticky: Positions an element relative to the nearest scrollable ancestor.
+
+top: Sets the top position of an element.
+right: Sets the right position of an element.
+bottom: Sets the bottom position of an element.
+left: Sets the left position of an element.
+z-index: Sets the stacking order of an element relative to other elements.
