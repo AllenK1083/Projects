@@ -1,0 +1,19 @@
+.container {
+    background-color: #F0F5FD;
+    display: flex;
+  }
+  
+  .footer {
+    display: flex;
+    padding: 5px;
+  }
+  
+  .item {
+    background-color: #D9E8FB;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  h3 {
+    text-align: center;
+  }
