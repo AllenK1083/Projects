@@ -3,6 +3,7 @@ body {
     background-color: #FFF9F5;
     color: #36454F;
     text-align: center;
+    margin: 0;
    }
    
    h1 {
@@ -36,13 +37,30 @@ body {
    
    .partners {
     text-decoration: underline;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
    }
    
    .otherPromo {
-    height: 600px;
+    height: 540px;
+    display: flex;
+    flex-direction: column-reverse;
    }
    
    .container {
-       padding: 0px;
-       margin: 0px;
-      }
+     display: flex;
+     padding: 0px;
+     margin: 0px;
+   }
+   
+   .navigation {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+   }
+   
+   .todayPromo{
+     display: flex;
+     flex-direction: column;
+   }
