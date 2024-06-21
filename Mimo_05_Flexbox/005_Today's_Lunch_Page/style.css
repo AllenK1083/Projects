@@ -2,6 +2,7 @@
     background-color: #F0F5FD;
     display: flex;
     height: 260px;
+    flex-direction: column;
   }
   
   .footer {
