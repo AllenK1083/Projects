@@ -34,6 +34,8 @@ body {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
   }
   
   .headlineImage {
@@ -47,7 +49,9 @@ body {
     margin: 15px 5px 5px 5px;
   }
   
-  .column {}
+  .column {
+    max-height: 250px;
+  }
   
   .colItem {
     width: 95%;
