@@ -36,3 +36,9 @@
     justify-content: space-around;
     color: #994E21;
   }
+  
+  .item {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+  }
