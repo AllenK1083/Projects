@@ -31,6 +31,9 @@ body {
   
   .headlineContainer {
     height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
   }
   
   .headlineImage {
