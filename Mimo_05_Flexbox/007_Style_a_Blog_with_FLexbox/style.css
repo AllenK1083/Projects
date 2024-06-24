@@ -23,7 +23,11 @@ body {
     margin-right: 10px;
   }
   
-  a {}
+  a {
+    margin: 10px;
+    color: rgb(54, 69, 79);
+    text-decoration: none;
+  }
   
   .headlineContainer {
     height: 400px;
