@@ -51,6 +51,8 @@ body {
   
   .column {
     max-height: 250px;
+    display: flex;
+    flex-direction: column;
   }
   
   .colItem {
