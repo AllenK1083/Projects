@@ -15,10 +15,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
   
   #navPhoto {
     text-align: right;
+    margin-right: 10px;
   }
   
   a {}
