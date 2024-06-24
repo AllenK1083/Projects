@@ -2,7 +2,7 @@
     background-color: #DE9C51;
     color: #FFFFFF;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   
   .nav-item{
