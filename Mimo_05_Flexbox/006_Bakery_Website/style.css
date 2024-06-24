@@ -5,6 +5,11 @@
     justify-content: flex-end;
   }
   
+  .nav-item{
+    padding: 3px;
+    margin: 0 5px;
+  }
+  
   img {
     width: 90%;
     border: 10px solid #FFFFFF;

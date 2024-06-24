@@ -6,4 +6,4 @@ git add -u && git commit -m "<stage deleted folders, and commit>"
 
 How to amend/change the latest git commit message
 
-git commit --amend " "
+git commit --amend -m " "
