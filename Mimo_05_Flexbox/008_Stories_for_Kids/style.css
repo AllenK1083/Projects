@@ -1,11 +1,13 @@
 .menu {
     background-color: #D9E8FB;
     flex-grow: 0;
+    flex-shrink: 0;
    }
    
    .content {
     background-color: #FBF4F0;
     flex-grow: 1;
+    flex-shrink: 1;
    }
    
    .section {
