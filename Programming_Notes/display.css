@@ -80,6 +80,11 @@ body{
     justify-content: /*Controls the horizontal alignment of flex items in a flex container along the cross axis. Ways to define can be flex-start, flex-end, center, or space-between.*/
 
     text-decoration: /*Defines the decoration of the text. Ways to define can be dashed, underline, overline, line-through, double, wavy, linthrough, or none*/
+
+    flex-shrink: /*Defines the flex shrink value. Ways to define can be px, %, em, etc.*/
+    flex-grow: /*Defines the flex grow value. Ways to define can be px, %, em, etc.*/
+    flex-basis: /*Defines the flex basis value. Ways to define can be px, %, em, etc.*/
+    
 }   
 
 

@@ -22,6 +22,8 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
   }
   
   #album img {
@@ -33,14 +35,24 @@ body {
   
   #songlist {
     height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
   
   #description {
     margin-left: 20px;
     margin-right: 20px;
+    flex: 1 0 250px;
   }
   
   #album-metadata {
     margin-left: 10px;
     margin-right: 10px;
+  }
+  
+  .bonus{
+    display: flex;
+    flex-grow: 1;
   }
