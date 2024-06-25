@@ -19,6 +19,8 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
     align-items: center;
+    display: flex;
+    flex-direction: row;
   }
   
   #album img {
