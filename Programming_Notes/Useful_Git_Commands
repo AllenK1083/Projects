@@ -5,5 +5,7 @@ Copy and past this into gitbash to stage and commit deleted folders:
 git add -u && git commit -m "<stage deleted folders, and commit>"
 
 How to amend/change the latest git commit message
-
 git commit --amend -m " "
+
+Reset changes to last commit
+git reset --hard
