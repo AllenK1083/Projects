@@ -16,6 +16,7 @@ html, body {
     grid-template-columns: 2fr 1fr;
     overflow: hidden;
     display: grid;
+    gap: 20px;
   }
   
   h1, h2{
@@ -33,3 +34,31 @@ html, body {
     height: 100%;
     object-fit: cover;
   }
+  
+  .info{
+    grid-template-areas: "name-job" "description" "contacts";
+  }
+  
+  .name-job {
+     grid-area: name-job;
+  }
+  
+  .description{
+    grid-area: description;
+  }
+  
+  .contacts{
+    grid-area: contacts;
+  }
+  
+  @media (max-width: 400px) {
+    .card {
+      grid-template-columns: 1fr;
+      grid-template-areas: "portrait" "info";
+      padding: 0;
+    }
+    .info {
+      text-align: center;
+      padding: 10px;
+    }
+   }
