@@ -1,0 +1,96 @@
+body{
+    display: block; 
+    /* display: none: This value removes the element from the document flow altogether, essentially hiding it from the page layout. */
+    /* display: inline;
+    /* display: inline-block; This value combines aspects of both block and inline elements. It allows elements to sit on the same line but also define a width and height like a block-level element. This is useful for elements you want to float or position next to each other while maintaining inline flow. */
+    /* display: flex; This value activates the CSS Flexible Box Layout Model, allowing for more control over the layout and arrangement of child elements within a container element. */
+    /* display: grid; This value activates the CSS Grid Layout Model, enabling a two-dimensional grid-based layout system for arranging elements. */
+    /* display: none;
+    /* display: table This value makes the element behave like a table element, allowing you to define rows and columns for data organization. */
+    /* display: table-cell; */
+    /* display: table-row; */
+    /* display: table-caption; */
+    /* display: table-column;*/
+
+    justify-content flex-start: 
+    /* justify-content Controls the horizontal alignment of flex items in a flex container.*/
+    /* justify-content: space-around; Evenly distribute items with space around them*/
+    /* justify-content: center; Center items along the main axis*/
+    /* justify-content: flex-end; Align items at the end of the container (right-aligned) */
+    /* justify-content: flex-start; Align items at the start of the container (left-aligned) */
+    /* justify-content: space-between; Distribute items evenly with space between them */
+    /* justify-content: space-evenly; Distribute items evenly with space between and around them */
+    /* justify-content: stretch; Stretch items to fill the container */
+    
+    border: /* Shorthand for defining all four borders (top, right, bottom, left). */
+    /* border-top, border-right, border-bottom, border-left: Individual border properties. */
+    border-style: /*Defines the style of the border (solid, dashed, dotted, etc.). */
+    border-width: /*Defines the width of the border. Ways to define can be px, %, em, etc. */
+    border-height: /*Defines the height of the border. Ways to define can be px, %, em, etc. */
+    border-radius: /*Defines the border radius of an element. */
+    border-color: /*Defines the color of the border. Ways to define can be hex, rgb, rgba, etc. */
+    
+    color: /*Defines the color of the text. Ways to define can be hex, rgb, rgba, etc.*/
+    font-size: /*Defines the font size of the text. Ways to define can be px, %, em, etc.*/
+    font-weight: /*Defines the font weight of the text. Ways to define can be normal, bold, etc.*/
+    font-style: /*Defines the font style of the text. Ways to define can be normal, italic, oblique, etc.*/
+    font-family: /*Defines the font family of the text. Ways to define can be serif, sans-serif, monospace, etc.*/
+    line-height: /*Defines the line height of the text. Ways to define can be px, %, em, etc.*/
+    text-align: /*Defines the alignment of the text. Ways to define can be left, right, center, justify, etc.*/
+
+    background-color: /*Defines the background color of the element. */
+    background-image: /*Defines the background image of the element. */
+    background-repeat: /*Defines how the background image should be repeated. */
+    background-position: /*Defines the position of the background image. */
+    background-size: /*Defines the size of the background image. */
+    background-attachment: /*Defines whether the background image should be fixed or scrollable. */
+    background-origin: /*Defines the origin of the background image. */
+
+    margin: /*Defines the margin of the element. Ways to define can be px, %, em, etc. Directions: top, right, bottom, left */
+    padding: /*Defines the padding of the element. Ways to define can be px, %, em, etc. Directions: top, right, bottom, left */
+    width: /*Defines the width of the element. Ways to define can be px, %, em, etc.*/
+    height: /*Defines the height of the element. Ways to define can be px, %, em, etc.*/
+    max-width: /*Defines the maximum width of the element. Ways to define can be px, %, em, etc.*/
+    min-width: /*Defines the minimum width of the element. Ways to define can be px, %, em, etc.*/
+    max-height: /*Defines the maximum height of the element. Ways to define can be px, %, em, etc.*/
+    min-height: /*Defines the minimum height of the element. Ways to define can be px, %, em, etc.*/
+    overflow: /*Defines what happens when content overflows an element. Ways to define can be hidden, scroll, or auto.*/
+
+    position: /*Defines the position of an element. Ways to define can be static, relative, fixed, or absolute */
+    abosolute: /*Positions an element relative to its nearest positioned ancestor. Ways to define can be top, right, bottom, left, or z-index.*/
+    relative: /*Positions an element relative to its normal position. Ways to define can be top, right, bottom, left, or z-index.*/
+    fixed: /*Positions an element relative to the viewport, not the normal flow of the document. Ways to define can be top, right, bottom, left, or z-index.*/
+    sticky: /*Positions an element relative to the nearest scrollable ancestor. Ways to define can be top, right, bottom, left, or z-index.*/   
+    
+    top: /*Sets the top position of an element. Ways to define can be px, %, em, etc.*/
+    right: /*Sets the right position of an element. Ways to define can be px, %, em, etc.*/
+    bottom: /*Sets the bottom position of an element. Ways to define can be px, %, em, etc.*/
+    left: /*Sets the left position of an element. Ways to define can be px, %, em, etc.*/
+    z-index: /*Sets the stacking order of an element relative to other elements. Ways to define can be px, %, em, etc.*/;
+
+    align-self: /*Controls the alignment of an element with respect to its flex container. Ways to define can be flex-start, flex-end, center, stretch, or baseline.*/
+    align-content: /*Controls the alignment of flex items in a flex container along the cross axis. Ways to define can be flex-start, flex-end, center, stretch, or baseline.*/
+    align-items: /*Controls the alignment of flex items in a flex container along the main axis. Ways to define can be flex-start, flex-end, center, stretch, or baseline.*/
+    align-text: /*Controls the vertical alignment of text in a flex container. Ways to define can be flex-start, flex-end, center, or baseline.*/
+
+    flex-direction: /*Controls the direction of the flex container's main axis. Ways to define can be row or column or row-reverse or column-reverse.*/
+    flex-wrap: /*Controls whether flex items wrap or not. Ways to define can be nowrap, wrap, or wrap-reverse.*/
+    justify-text: /* Controls the horizontal alignment of text in a flex container. Ways to define can be flex-start, flex-end, center, or space-between.*/
+    justify-items: /*Controls the horizontal alignment of flex items in a flex container along the main axis. Ways to define can be flex-start, flex-end, center, or space-between.*/
+    justify-content: /*Controls the horizontal alignment of flex items in a flex container along the cross axis. Ways to define can be flex-start, flex-end, center, or space-between.*/
+
+    text-decoration: /*Defines the decoration of the text. Ways to define can be dashed, underline, overline, line-through, double, wavy, linthrough, or none*/
+
+    flex-shrink: /*Defines the flex shrink value. Ways to define can be px, %, em, etc.*/
+    flex-grow: /*Defines the flex grow value. Ways to define can be px, %, em, etc.*/
+    flex-basis: /*Defines the flex basis value. Ways to define can be px, %, em, etc.*/
+    
+}   
+
+
+
+
+
+
+
+

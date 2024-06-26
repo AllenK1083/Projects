@@ -1,0 +1,100 @@
+body {
+    margin: auto;
+    background-color: #FFF9F5;
+    color: #36454F;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    min-width: 600px; 
+  }
+  
+  .heading {
+    text-align: center;
+  }
+  
+  .navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #navPhoto {
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  a {
+    margin: 10px;
+    color: rgb(54, 69, 79);
+    text-decoration: none;
+  }
+  
+  .headlineContainer {
+    height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+  }
+  
+  .headlineImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    float: left;
+  }
+  
+  .headlineItem h3 {
+    margin: 15px 5px 5px 5px;
+  }
+  
+  .column {
+    max-height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .colItem {
+    width: 95%;
+    margin: 8px;
+    border: 2px solid #F0EEEE;
+    border-radius: 2px;
+    text-align: center;
+  }
+  
+  .navItem {
+    width: 220px;
+  }
+  
+  #navPhoto img {
+    width: 50px;
+    border-radius: 50%;
+  }
+  
+  .headlineItem {
+    height: 100px;
+    width: 45%;
+    margin: 10px;
+    border: 2px solid #C0C0C0;
+    border-radius: 4px;
+    background-color: #C2C2C2;
+  }
+  
+  .headlineItem:hover,
+  .colItem:hover {
+    cursor: pointer;
+  }
+  
+  .colItem h4 {
+    margin: 5px;
+  }
+  
+  .colItem p {
+    margin: 3px;
+  }
+  
+  h3 {
+    text-align: center;
+  }

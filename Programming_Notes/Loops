@@ -1,4 +1,5 @@
 Javascript
+<<<<<<< HEAD
 for (let i = 0; i < 10; i++) {
     console.log(i);
 }   
@@ -16,3 +17,19 @@ for i in range(10):
 while i < 10:
     print(i)
     i += 1  
+=======
+for (initialization; condition; increment/decrement) {
+    // Code to be executed for each iteration; initialization must start with let or const
+}   
+  
+if (condition) {
+    // Code to be executed if the condition is true
+} else {
+    // Code to be executed if the condition is false (optional)
+}
+  
+while (condition) {
+    // Code to be executed as long as the condition is true
+  }
+  
+>>>>>>> bb79ab2a819b96aed4ec047c413e28f5ffc8840f
