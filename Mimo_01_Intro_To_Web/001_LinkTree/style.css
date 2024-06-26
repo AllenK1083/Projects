@@ -59,6 +59,7 @@ text-decoration: none;}
 nav{
   background-color: rgba(71, 83, 196, 0.349);
   padding: 10px;
+  border-radius: 10px;
 }
 
 .buttons{
@@ -72,4 +73,15 @@ nav{
 .project-item{
   display: flex;
   justify-content: flex-start
+}
+
+.projects{
+  display: flex;
+  justify-content: flex-start;
+  border-color: aqua;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  margin: 10px;
 }
