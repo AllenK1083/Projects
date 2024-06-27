@@ -9,3 +9,9 @@
   h2 {
     color: #2980B9;
   }
+  
+  .grid-container{
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px;
+  }
