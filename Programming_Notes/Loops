@@ -1,4 +1,23 @@
 Javascript
+<<<<<<< HEAD
+for (let i = 0; i < 10; i++) {
+    console.log(i);
+}   
+
+while (i < 10) {
+    console.log(i);
+    i++;
+}   
+
+
+Python  
+for i in range(10):
+    print(i)        
+
+while i < 10:
+    print(i)
+    i += 1  
+=======
 for (initialization; condition; increment/decrement) {
     // Code to be executed for each iteration; initialization must start with let or const
 }   
@@ -13,3 +32,4 @@ while (condition) {
     // Code to be executed as long as the condition is true
   }
   
+>>>>>>> bb79ab2a819b96aed4ec047c413e28f5ffc8840f
