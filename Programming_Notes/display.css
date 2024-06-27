@@ -38,13 +38,13 @@ body{
     line-height: /*Defines the line height of the text. Ways to define can be px, %, em, etc.*/
     text-align: /*Defines the alignment of the text. Ways to define can be left, right, center, justify, etc.*/
 
-    background-color: /*Defines the background color of the element. */
-    background-image: /*Defines the background image of the element. */
-    background-repeat: /*Defines how the background image should be repeated. */
-    background-position: /*Defines the position of the background image. */
-    background-size: /*Defines the size of the background image. */
-    background-attachment: /*Defines whether the background image should be fixed or scrollable. */
-    background-origin: /*Defines the origin of the background image. */
+    background-color: /*Defines the background color of the element. ways to define can be hex, rgb, rgba, etc.*/
+    background-image: /*Defines the background image of the element. ways to define can be url, none, repeat, repeat-x, repeat-y, no-repeat*/
+    background-repeat: /*Defines how the background image should be repeated. ways to define can be repeat, repeat-x, repeat-y, no-repeat*/
+    background-position: /*Defines the position of the background image. ways to define can be top, right, bottom, left*/
+    background-size: /*Defines the size of the background image. ways to define can be cover, contain*/
+    background-attachment: /*Defines whether the background image should be fixed or scrollable. ways to define can be scroll, fixed*/
+    background-origin: /*Defines the origin of the background image. ways to define can be padding-box, border-box, content-box*/
 
     margin: /*Defines the margin of the element. Ways to define can be px, %, em, etc. Directions: top, right, bottom, left */
     padding: /*Defines the padding of the element. Ways to define can be px, %, em, etc. Directions: top, right, bottom, left */
