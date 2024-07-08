@@ -1,5 +1,15 @@
 Javascript
 let variable = []
 
+variable.pop() this will remove the last element from the array
+variable.push(value) this will add an element to the end of the array
+variable.shift() this will remove the first element from the array
+variable.unshift(value) this will add an element to the beginning of the array
+variable.length this will return the length of the array
+variable.splice(index,quantity,replacement value) this will remove and replace elements in the array based on index, how many CSSFontFeatureValuesRule, and with what value.
+variable.indexOf(searchElement, from indexOf) this will return the index of the value
+
 python 
 variable = []
+
+
