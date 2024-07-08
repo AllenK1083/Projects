@@ -11,5 +11,12 @@ variable.indexOf(searchElement, from indexOf) this will return the index of the 
 
 python 
 variable = []
-
+variable.append(value) this will add a value to the end of the array
+variable.remove(value) this will remove the value from the array
+variable.index(value) this will return the index of the value
+variable.count(value) this will return the number of times the value appears in the array
+variable.sort(key=None, reverse=False) this will sort the array
+variable.reverse() this will reverse the array
+variable.copy() this will copy the array
+variable.insert(index, element) Inserts an element at a given position (index) in the list.
 
