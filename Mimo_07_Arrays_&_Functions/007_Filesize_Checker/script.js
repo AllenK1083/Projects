@@ -7,4 +7,5 @@ let checkSize = (fileSize) => {
     const underMinSize = fileSize < minSize;
     console.log("The file is too small: " + underMinSize);
   };
-  
+  const fileSize = 4;
+  checkSize(fileSize);
