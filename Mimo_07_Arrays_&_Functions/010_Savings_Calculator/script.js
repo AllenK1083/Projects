@@ -26,4 +26,17 @@ function findDiscount(price) {
     return 0;
   }
 }
-  
+
+function calculateTotal(receipt){
+  let total = 0;
+  let totalSavings = 0;
+  for (let i = 0; i<receipt.length;i++){
+    originalPrice = receipt[i];
+    if(getsDiscount(receipt) === true){
+    discountRate = findDiscount(originalPrice);
+    console.log(discountRate)
+    }
+  }
+}
+
+calculateTotal(receipt);
