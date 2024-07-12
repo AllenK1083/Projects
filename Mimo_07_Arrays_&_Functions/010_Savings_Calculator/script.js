@@ -34,7 +34,9 @@ function calculateTotal(receipt){
     originalPrice = receipt[i];
     if(getsDiscount(receipt) === true){
     discountRate = findDiscount(originalPrice);
-    console.log(discountRate)
+    let savings = originalPrice * discountRate;
+    totalSavings = totalSavings + savings;
+    console.log(totalSavings)
     }
   }
 }
