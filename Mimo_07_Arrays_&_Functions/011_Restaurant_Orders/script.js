@@ -36,15 +36,26 @@ const italianFood = [{
   
   function selectMeal(name, type) {
     if (type === "italian"){
-      return "italian order";
+      return findMeal(name,italianFood);
     } else if (type === "indian") {
-      return "indian order";
+      return findMeal(name,indianFood);
     } else if (type === "thai"){
-      return "thai order";
+      return findMeal(name,thaiFood);
     } else { 
       return "not found";
     }
   }
   
+  function createSummary(name, type, amount) {
+    let order = selectMeal(name,type);
+    let orderPossible = order !== "not found" && amount <= order.quantity;
+    let errorMessage = "Something went wrong, please try again later'";
+    if (orderPossible === true) {
+      let total = amount * order.price;
+      return `You ordered ${amount} or ${name} for a total of ${total}`
+    } else {
+      return errorMessage;
+    }
+  }
   
-  function createSummary(name, type, amount) {}
+  createSummary("Pasta Bolognese", "italian", "3");
