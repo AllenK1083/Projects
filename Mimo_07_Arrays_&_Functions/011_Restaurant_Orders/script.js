@@ -34,6 +34,17 @@ const italianFood = [{
     }
   }
   
-  function selectMeal(name, type) {}
+  function selectMeal(name, type) {
+    if (type === "italian"){
+      return "italian order";
+    } else if (type === "indian") {
+      return "indian order";
+    } else if (type === "thai"){
+      return "thai order";
+    } else { 
+      return "not found";
+    }
+  }
+  
   
   function createSummary(name, type, amount) {}
