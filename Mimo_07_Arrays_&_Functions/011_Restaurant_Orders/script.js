@@ -26,7 +26,13 @@ const italianFood = [{
     price: 9
   }];
   
-  function findMeal(name, menu) {}
+  function findMeal(name, menu) {
+    for(i = 0; i<menu.length;i++){
+      if (menu[i].mealName === name){
+        return menu[i];
+      }
+    }
+  }
   
   function selectMeal(name, type) {}
   
