@@ -1,4 +1,5 @@
 const receipt = [21.99, 10.67, 18.50];
+const rec2 = [2.99, 1.46, 5.67];
 
 function getCents(price) {
   const splitPrice = price.toString().split(".");
@@ -36,9 +37,13 @@ function calculateTotal(receipt){
     discountRate = findDiscount(originalPrice);
     let savings = originalPrice * discountRate;
     totalSavings = totalSavings + savings;
-    console.log(totalSavings)
+    let discountedPrice = originalPrice - savings;
+    total = total + discountedPrice;
+    } else {
+      total = total + originalPrice;
+      console.log(total)
     }
   }
 }
 
-calculateTotal(receipt);
+calculateTotal(rec2);
