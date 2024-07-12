@@ -1,5 +1,4 @@
 const receipt = [21.99, 10.67, 18.50];
-const rec2 = [2.99, 1.46, 5.67];
 
 function getCents(price) {
   const splitPrice = price.toString().split(".");
@@ -34,16 +33,19 @@ function calculateTotal(receipt){
   for (let i = 0; i<receipt.length;i++){
     originalPrice = receipt[i];
     if(getsDiscount(receipt) === true){
-    discountRate = findDiscount(originalPrice);
-    let savings = originalPrice * discountRate;
-    totalSavings = totalSavings + savings;
-    let discountedPrice = originalPrice - savings;
-    total = total + discountedPrice;
+      discountRate = findDiscount(originalPrice);
+      let savings = originalPrice * discountRate;
+      totalSavings = totalSavings + savings;
+      let discountedPrice = originalPrice - savings;
+      total = total + discountedPrice;
+    } else if(discountRate != 0){
+      console.log(`Item ${i} Savings: ${savings.toFixed(2)}`);
     } else {
       total = total + originalPrice;
-      console.log(total)
     }
   }
+  console.log(`Total Saved: $${totalSavings.toFixed(2)}`);
+  console.log(`Total Post-Discount: $${total.toFixed(2)}`);
 }
 
-calculateTotal(rec2);
+calculateTotal(receipt);
