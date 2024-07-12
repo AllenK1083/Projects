@@ -8,6 +8,10 @@ variable.unshift(value) this will add an element to the beginning of the array
 variable.length this will return the length of the array
 variable.splice(index,quantity,replacement value) this will remove and replace elements in the array based on index, how many CSSFontFeatureValuesRule, and with what value.
 variable.indexOf(searchElement, from indexOf) this will return the index of the value
+variable.filter(callback, thisArg) this will filter the array
+variable.map(callback, thisArg) this will map the array
+variable.reduce(callback, initialValue) this will reduce the array
+variable.reduceRight(callback, initialValue) this will reduce the array
 
 python 
 variable = []
